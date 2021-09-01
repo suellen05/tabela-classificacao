@@ -1,0 +1,29 @@
+table, td, th{
+    border: 10px solid;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background-color: rgba(199, 230, 191, 0.5);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+body{
+background-image: url("../img/taca.jpeg");
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: column;
+height: 500px;
+}
+
+button{
+    font-size: 15px;
+   width: 100px;
+   height: 30px;
+   background-color: #4CAF50; /* Green */
+   color: white;
+   transition-duration: 0.4s;
+   
+
+}
